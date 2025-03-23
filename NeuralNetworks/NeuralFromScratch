@@ -1,0 +1,24 @@
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+
+def back_propagation():
+    pass
+
+def reLU(src, x):
+    pass
+
+def sigmoid():
+    pass
+
+def padding():
+    pass
+
+def dropout():
+    pass
+
+def softmax():
+    pass
+
+
+
