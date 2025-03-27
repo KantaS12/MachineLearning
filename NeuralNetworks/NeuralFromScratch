@@ -2,22 +2,34 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
-def back_propagation():
+def initialize_parameters(dim_layers):
     pass
 
-def reLU(src, x):
+def sigmoid(N):
     pass
 
-def sigmoid():
+def reLU(N):
     pass
 
-def padding():
+def derivative_sigmoid(dN, N):
     pass
 
-def dropout():
+def derivative_reLU(dN, N):
     pass
 
-def softmax():
+def forward_prop(X, param, activation):
+    pass
+
+def loss(actual, theoretical):
+    pass
+
+def backward_prop(actual, theoretical, values, activation):
+    pass
+
+def updates(param, gradient, learning_rate):
+    pass
+
+def train_neural(X, actual, dim_layers, activation, learning_rate, epochs):
     pass
 
 
